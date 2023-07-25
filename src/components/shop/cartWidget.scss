@@ -1,0 +1,33 @@
+.cartWidget {
+    display: block;
+    padding-right: 25px;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+   
+}
+
+@media (max-width: 450px) {
+    .cartWidget {
+        
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
+
+@media (max-width: 365px) {
+    .cartWidget {
+        
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

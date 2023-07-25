@@ -1,0 +1,13 @@
+.listadoProd {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+
+    .card{
+        margin-top: 50px;
+    }
+    
+
+}

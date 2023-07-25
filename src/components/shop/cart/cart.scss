@@ -1,0 +1,55 @@
+.cartPage{
+
+    h3{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+  
+}
+.cardCart{
+    display: flex;
+    flex-direction: row;  
+    padding-left:25px; 
+    padding-top:50px; 
+    padding-bottom:25px;
+    border-bottom: 1px black solid;
+    //border-top: 1px black solid; ;
+}
+
+.rowOrderText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+    #cardCartTittle{
+        width: 150px;
+    }
+}
+
+.btnDelete{
+
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+.vaciarCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .btnTcompra{
+        margin-bottom: 25px;
+        a{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        text-transform: none;
+    }
+}
+}
